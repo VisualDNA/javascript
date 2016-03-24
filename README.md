@@ -1,4 +1,4 @@
-# Airbnb JavaScript Style Guide() {
+# Based on the original guide from Airbnb, modified to fit VisualDNA style guide() {
 
 *A mostly reasonable approach to JavaScript*
 
