@@ -1,4 +1,4 @@
-# Airbnb React/JSX Style Guide
+# Based on the original guide from Airbnb, modified to fit VisualDNA React/JSX Style Guide
 
 *A mostly reasonable approach to React and JSX*
 
@@ -325,19 +325,9 @@
     }
     ```
 
-  - Do not use underscore prefix for internal methods of a React component.
+  - Use underscore prefix for internal methods of a React component.
 
-    ```javascript
     // bad
-    React.createClass({
-      _onClickSubmit() {
-        // do stuff
-      },
-
-      // other stuff
-    });
-
-    // good
     class extends React.Component {
       onClickSubmit() {
         // do stuff
@@ -346,6 +336,17 @@
       // other stuff
     }
     ```
+    
+    ```javascript
+    // good
+    React.createClass({
+      _onClickSubmit() {
+        // do stuff
+      },
+
+      // other stuff
+    });
+
 
 ## Ordering
 
