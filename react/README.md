@@ -323,6 +323,17 @@
         return <div onClick={this.onClickDiv} />
       }
     }
+    
+    // good
+    class extends React.Component {
+      onClickDiv = () => {
+        // do stuff
+      }
+
+      render() {
+        return <div onClick={this.onClickDiv} />
+      }
+    }
     ```
 
   - Use underscore prefix for internal methods of a React component.
